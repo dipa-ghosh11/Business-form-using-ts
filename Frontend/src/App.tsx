@@ -12,10 +12,10 @@ function App() {
     lastname: string;
     email: string;
     jobtitle: string;
-  }
+  };
 
   const formik = useFormik({
-    initialValues: {
+    initialValues :{
       companyname: '',
       websiteurl: '',
       firstname: '',
